@@ -1,2 +1,6 @@
 def main() -> None:
-    print("Hello from mcp-study!")
+    print(hello())
+
+
+def hello() -> None:
+    return "Hello from mcp-study!"
